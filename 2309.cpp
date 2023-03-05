@@ -41,7 +41,7 @@ int main()
         std::cin >> x;
         a.push_back(x);
     }
-    std::vector<int> v(0);
+    std::vector<int> v;
     makeCombination(-1, v, a);
 
     return 0;
