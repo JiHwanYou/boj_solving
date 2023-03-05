@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-void makeCombination(int start, std::vector<int> v, std::vector<int> &a)
+void makeCombination(int start, std::vector<int> &v, std::vector<int> &a)
 {
     static bool once_found = false;
 
